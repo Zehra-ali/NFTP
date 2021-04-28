@@ -1,0 +1,47 @@
+
+
+.main{
+
+	/*border-style: solid;*/
+	width:80%;
+	padding-left:90px;
+}
+
+.nav-bar-div{
+	
+	border-bottom: 1px solid grey;
+
+}
+
+.searchbar{
+	border-radius: 25px;
+	border: 2px solid black;
+}
+
+.colorbtn{
+	background-color: green;
+	color: white;
+}
+
+.section-2{
+	font-size: 50px;
+	color:14A800;
+}
+
+#heading-2{
+	font-size:15px;
+	display:inline-block;
+	position:absolute;
+	margin-top: 283px;
+	margin-left: -574px;
+	color:6A8085;
+}
+
+#links{
+position:absolute;
+font-size:31px;
+margin-top:32px;
+width:20%;
+height:50%;
+
+}
