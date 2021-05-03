@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    
+    <style>
+        .main{
+            width:80%;
+            margin-left: 10%;
+            
+        }
+            .nav-bar{
+                display:flex;
+                /* border:5px solid green; */
+                flex-flow: row wrap;
+                align-items: center;
+                
+            }
+    
+            .flex-items{
+                /* border:2px solid red; */
+                flex:1 1 20px;
+                color:grey;
+                
+            }
+            #upwork-image{
+                width:50px;
+                height:50px;
+            }
+            .searchbox{
+                flex:2 2 20px;
+                border-radius:25px;
+                justify-content: end;
+            }
+            .btn-decoration{
+                border-radius:25px;
+                background-color:green;
+                color:white;
+            }
+            .join{
+                /* border:5px solid blue; */
+                display:flex;
+                flex-flow:column wrap;
+                margin-left:-390px;
+            }
+            .join-items{
+                /* border:2px solid plum; */
+                padding:10px;
+             
+            }
+            .globe-image{
+                display:flex;
+                justify-content: end;
+                margin-left: 382px;
+                position:absolute;
+            }
+            .heading1{
+                font-size: 50px;
+	            color:green;
+                font-weight: 600;
+                font-size:95px;
+            }
+            .text-decoration{
+                font-size: x-large;
+                color:grey;
+                font-weight: bold;
+            }
+            .trustedby{
+                font-size: large;
+                color:grey;
+            }
+            .credentials{
+                /* border:5px solid aqua; */
+                display:flex;
+                flex-flow:row wrap;
+            }
+
+            .credential-items{
+                /* border:2px solid green; */
+                flex:0.15 0.15 5px;
+                justify-content: space-evenly;
+            }
+
+            .third-section{
+                margin-top:648px;
+                /* border:5px solid blue; */
+                display:flex;
+                flex-flow:column wrap;
+                padding:27px;
+            }
+            #image{
+                background-image: url("images/background-image.png");
+                height:483px;
+                width:1241px;
+
+            }
+            .text-formatting{
+                color:white;
+                font-size:larger;
+                font-weight: bold;
+            }
+            .inner-divs{
+                display:flex;
+                /* border:2px solid yellow; */
+                flex-flow: row wrap;
+                
+            }
+            .inner-div-items{
+                flex:1 1 80px;
+                border:2px solid mediumseagreen;
+                justify-content: space-between;
+                background-color: mediumseagreen;
+              
+            }
+            .find-talent{
+                font-size: 50px;
+            }
+    </style>
+
+</head>
+<body>
+    <div class="main" >
+        <section class="nav-bar">
+            <div class="flex-items"><img src="images/logo-1200x630.png" id="upwork-image"></div>
+            <div class="flex-items">Find Talent</div>
+            <div class="flex-items">Find Work</div>
+            <div class="flex-items">Why Upwork</div>
+            <div class="flex-items">Enterprise</div>
+            <div class="flex-items"></div>
+            <div class="searchbox"><input type="search" placeholder="search" class="searchbox"></div>
+            <div class="flex-items">Log In</div>
+            <div class="flex-items"><button class="btn-decoration">Sign Up</button></div>
+        </section>
+        
+        <hr/>
+        <br/>
+        <br/>
+        <div class="globe-image">
+        <section class="join">
+            <div  class="join-items heading1">Join the world's<br/>
+                work marketplace</div>
+            <br/>
+            <div class="join-items text-decoration">Find great talent. Build your business.<br/>
+                Take your career to the next level.</div>
+            <div class="join-items"><button class="btn-decoration"> Find Talent</button>  <button> Find Work</button></div>
+            <br/>
+            <br/>
+            <div class="join-items trustedby">Trusted By</div>
+            
+            <div class="join-items credentials">
+                <div class="credential-items"><img src="images/microsoft-logo.png" width="60%" height="60%"></div>
+                <div class="credential-items"><img src="images/air bnb.png" width="60%" height="60%"></div>
+                <div class="credential-items"><img src="images/microsoft-logo.png" width="60%" height="60%"></div>
+                <div class="credential-items"><img src="images/microsoft-logo.png" width="60%" height="60%"></div>
+            </div>
+
+        </section>
+        <img src="images/globe.png" class="globe-image">
+        </div>
+        
+        
+        
+        <div id="image">
+         <section class="third-section">
+            <div  class="join-items text-formatting">For Clients</div>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <div class="join-items text-formatting find-talent" >Find talent <br/> your way</div>
+            <div class="join-items text-formatting">Work with the largest network of independent <br/> professionals and get things done—from quick<br/> turnarounds to big transformations.</div>
+            <br/>
+            <br/>
+            <div class="join-items text-formatting inner-divs">
+                <div class="inner-div-items">TextTextText Text <br/>Text Text TextText</div>
+                <div class="inner-div-items">TextTextText Text <br/>Text Text TextText</div>
+                <div class="inner-div-items">TextTextText Text <br/>Text Text TextText</div>
+
+            </div>
+         </section>     
+        </div>
+       
+    </div>
+
+            
+</body>
+</html>
