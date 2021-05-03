@@ -1,0 +1,407 @@
+.main{
+    display:flex;
+flex-flow:column wrap;
+/* border:8px solid green; */
+justify-content: center;
+width: 80%;
+margin-left:10%;
+margin-right:10%;
+    
+ }
+
+ 
+.nav-bar{
+    display:flex;
+    flex-flow:row wrap;
+    /* width:800px; */
+    /* border:5px solid red; */
+   
+    justify-content: space-evenly;
+    align-items: center;
+    font-size:18px;
+
+    
+}
+.section2-items{
+  /* width:1200px; */
+  font-family: Arial, sans-serif;
+  display:flex;
+  flex-flow:row wrap;
+  background-color:#0E1724;
+  color:white;
+ /* justify-content: flex-start; */
+}
+.innerdivs{
+  /* border:2px solid blue; */
+  padding: 10px;
+}
+.emptyspace{
+    flex:0.5 0.5 50px;
+}
+#post-project{
+    padding:10px;
+    background-color: #FC8C14;
+    color: white;
+    text-decoration:none;
+    font-weight: bold;
+}
+
+.section3{
+    /* background-image: url("images/magazine-850-desktop.jpg");
+   height:851px;
+    */
+   display:flex;
+   flex-flow:column wrap;
+   align-items:flex-start;
+   color:white;
+}
+.section3-items{
+    /* width:1200px; */
+    /* border:5px solid red; */
+    flex: 2 2 120px;
+   
+}
+.bg-content-1{
+    font-size: 46px;
+    font-weight: bold;
+}
+.bg-content-2{
+    font-size: 20.4px;
+}
+.bg-content-3{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: space-evenly;
+    
+    
+}
+.bg-links{
+    /*  */
+    margin:5px;
+    font-size:20px;
+    height:22px;
+    padding:10px;
+    font-weight:bold;
+    font-family:Arial, Helvetica, sans-serif;
+   
+    
+}
+.bg-link1{
+    border:2px solid  #FA5F9B;
+    background-color: #FA5F9B;
+    color:white;
+    text-decoration: none;
+}
+.bg-link2{
+    background-color: lightgrey;
+    border:2px solid white;
+    color:white;
+    text-decoration: none;
+   
+}
+.section4{
+    display:flex;
+    flex-flow:row wrap;
+    /* border:#FA5F9B 5px solid; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+    margin-top:130px;
+    justify-content: flex-start;
+    border-bottom:1px solid lightgrey;
+    
+}
+.section4-items{
+    /* border:5px solid black; */
+    padding:20.2px;
+}
+
+
+.section5{
+    display:flex;
+    flex-flow:column wrap;
+    /* border:5px solid blue; */
+    margin-top:115px;
+    
+    justify-content: flex-start;
+}
+.tag-line{
+    font-size:50px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:10px;
+}
+.section5-items{
+    /* border:2px solid teal; */
+    display:flex;
+    flex-flow:row wrap;
+    height:385px;
+    /* border:2px solid aqua; */
+    flex: 2 2 100px;
+    /* border-bottom:2px solid lightgrey; */
+
+}
+
+
+.section5-inner-items{
+    /* border:2px solid black; */
+    margin:5px;
+    padding:10px;
+    display:flex;
+    flex-flow: column wrap;
+    flex:1 1 50px;
+    font-size:20px;
+}
+.section5-inner-content{
+    margin-top:50px;
+    display:flex;
+    flex-flow:row column;
+    align-items: center;
+    /* border:2px solid brown; */
+    flex:1 1 50px;
+  
+}
+
+.section6{
+    display:flex;
+    flex-flow:column wrap;
+    /* border:5px solid blue; */
+    margin-top:50px;
+    border-top:2px solid lightgrey;
+    justify-content: flex-start;
+    
+    
+}
+.section6-items{
+    display:flex;
+    flex-flow:row wrap;
+    /* border:2px solid green; */
+}
+.section6-items-column{
+    /* border:5px solid chocolate; */
+    display:flex;
+    flex-flow:column wrap;
+    /* border:2px solid lime; */
+    font-size:20px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top:20px;
+    flex:1 1 50px;
+}
+
+
+.section7{
+border:2px solid teal;
+margin-top:141px;
+border-top:2px solid lightgrey;
+}
+
+.Section7-images-block{
+    display:flex;
+    flex-flow:row wrap;
+    margin-top:50px;
+   
+    /* border:5px solid blue; */
+
+}
+
+.inner-div-border{
+    /* border:5px solid black; */
+    flex:1 1 50px;
+    margin-top:5px;
+    overflow: hidden;
+
+}
+.img-div{
+    overflow: hidden;
+    
+}
+
+.img-overlay:hover {
+    opacity:1;
+    transform: scale(1.5);
+    transform-origin: 50% 50%;
+}
+
+.overlay1{
+    position: absolute;
+    top: 1650px;
+            bottom: 0;
+            left: 250px;
+            right: 0px;
+            
+    
+}
+.overlay2{
+    position: absolute;
+            top: 1650px;
+            bottom: 0;
+            left: 550px;
+            right: 0px;
+
+}
+
+.overlay3{
+    position: absolute;
+            top: 1650px;
+            bottom: 0;
+            left: 850px;
+            right: 0px;
+
+}
+.overlay4{
+    position: absolute;
+            top: 1650px;
+            bottom: 0;
+            left: 1150px;
+            right: 0px;
+
+}
+
+.overlay5{
+    position: absolute;
+            top: 2000px;
+            bottom: 0;
+            left: 250px;
+            right: 0px;
+
+}
+.overlay6{
+    position: absolute;
+            top: 2000px;
+            bottom: 0;
+            left: 550px;
+            right: 0px;
+
+}
+.overlay7{
+    position: absolute;
+            top: 2000px;
+            bottom: 0;
+            left: 850px;
+            right: 0px;
+
+}
+.overlay8{
+    position: absolute;
+            top: 2000px;
+            bottom: 0;
+            left: 1150px;
+            right: 0px;
+
+}
+.overlay9{
+    position: absolute;
+            top: 2268px;
+            bottom: 0;
+            left: 250px;
+            right: 0px;
+
+}
+.overlay10{
+    position: absolute;
+            top: 2268px;
+            bottom: 0;
+            left: 550px;
+            right: 0px;
+
+}
+.overlay11{
+    position: absolute;
+            top: 2268px;
+            bottom: 0;
+            left: 850px;
+            right: 0px;
+
+}
+.overlay12{
+    position: absolute;
+            top: 2268px;
+            bottom: 0;
+            left: 1150px;
+            right: 0px;
+
+}
+.overlay13{
+    position: absolute;
+            top: 2550px;
+            bottom: 0;
+            left: 250px;
+            right: 0px;
+
+}
+.overlay14{
+    position: absolute;
+            top: 2550px;
+            bottom: 0;
+            left: 550px;
+            right: 0px;
+
+}
+.overlay15{
+    position: absolute;
+            top: 2550px;
+            bottom: 0;
+            left: 850px;
+            right: 0px;
+
+}
+.overlay16{
+    position: absolute;
+            top: 2550px;
+            bottom: 0;
+            left: 1150px;
+            right: 0px;
+
+}
+        .overlay{
+        
+        
+            height:45px;
+            width: 150px;
+            border:5px solid white;
+            opacity: 0;
+            transition: .5s ease;
+            
+
+    }
+.inner-div-border:hover .overlay{
+    opacity:1;
+
+}
+
+.section7-images-label{
+    font-weight: bold;
+    font-size: 23px;
+    color:black;
+}
+
+.image-link{
+    color:white;
+    font-size:20px;
+    font-weight:bold;
+    padding:10px;
+    text-decoration:none;
+   
+    
+}
+/* .image-link:hover{
+
+    opacity:1;
+    transform: scale(1);
+    transform-origin: 50% 50%;
+    background-color:grey; */
+
+
+
+
+
+
+.background-image{
+    width:100%;
+    background-image: url("images/mobile-phone-1080-desktop.jpg");
+
+    background-repeat:no-repeat;
+    background-size: 1525px 599px;
+    background-position: 50% 5.3%;
+
+}
