@@ -38,7 +38,7 @@ margin-right:10%;
 .emptyspace{
     flex:0.5 0.5 50px;
 }
-#post-project{
+.post-project{
     padding:10px;
     background-color: #FC8C14;
     color: white;
@@ -393,7 +393,9 @@ border-top:2px solid lightgrey;
 
 
 
-
+    .hover-effect:hover{
+       opacity:0.8;
+    }
 
 
 .background-image{
@@ -405,3 +407,4 @@ border-top:2px solid lightgrey;
     background-position: 50% 5.3%;
 
 }
+
